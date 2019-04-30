@@ -7,6 +7,8 @@ header#header {
     padding-right: 0;
 }
 
+
+
 header nav ul.navbar-nav {
     margin: 0;
 }
@@ -40,6 +42,18 @@ header nav ul.navbar-nav li:hover {
     z-index: -1;
 }
 
+.vector-bg-2 {
+    top: 0;
+    left: 0;
+    width: 12vw;
+    height: 32.94vw;
+    position: absolute;
+    background-image: url('images/vector-left-2.jpg');
+    background-size: cover;
+    background-position: bottom left;
+    z-index: -1;
+}
+
 .contact-input input.form-control {
     margin-bottom: 20px;
 } 
@@ -47,6 +61,16 @@ header nav ul.navbar-nav li:hover {
 @media (max-width: 768px) {
     div.contact-body {
         /* i need the form in there to bve justified center but max of 400px */
+    }
+
+    #contact.container {
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+    }    
+
+    div.cta {
+        background-color: #e5e6f7;
     }
 }
 
